@@ -1,0 +1,16 @@
+{
+  "name": "delivery-gourmet",
+  "version": "1.0.0",
+  "description": "Delivery Gourmet Website",
+  "scripts": {
+    "start": "npx serve",
+    "dev": "npx serve"
+  },
+  "engines": {
+    "node": ">=14.x"
+  },
+  "dependencies": {
+    "serve": "^14.0.0"
+  },
+  "devDependencies": {}
+} 

@@ -1,0 +1,332 @@
+Uri: https://cdn.jsdelivr.net/npm/sweetalert2@11
+File Name: C:\Downloaded Web Sites\deliverygourmetpha.shop\npm\sweetalert2@11
+Content Type: application/javascript
+
+Uri: https://cdn.utmify.com.br/scripts/utms/latest.js
+File Name: C:\Downloaded Web Sites\deliverygourmetpha.shop\scripts\utms\latest.js
+Content Type: text/javascript
+
+Uri: https://cdn.vendd.com.br/public/site_image/1747968088177-606261183.png
+File Name: C:\Downloaded Web Sites\deliverygourmetpha.shop\public\site_image\1747968088177-606261183.png
+Content Type: application/octet-stream
+
+Uri: https://deliverygourmetpha.shop/
+File Name: C:\Downloaded Web Sites\deliverygourmetpha.shop\index-1.htm
+Content Type: text/html
+
+Uri: https://deliverygourmetpha.shop/?utm_source=FB&utm_campaign=Morango+do+amor+—+Cópia|120232374197050130&utm_medium=Novo+conjunto+de+anúncios+de+Vendas|120232374196920130&utm_content=Novo+anúncio+de+Vendas|120232374196900130&utm_term=Instagram_Reels&xcod=FBhQwK21wXxRMorango+do+amor+—+Cópia|120232374197050130hQwK21wXxRNovo+conjunto+de+anúncios+de+Vendas|120232374196920130hQwK21wXxRNovo+anúncio+de+Vendas|120232374196900130hQwK21wXxRInstagram_Reels&sck=FBhQwK21wXxRMorango+do+amor+—+Cópia|120232374197050130hQwK21wXxRNovo+conjunto+de+anúncios+de+Vendas|120232374196920130hQwK21wXxRNovo+anúncio+de+Vendas|120232374196900130hQwK21wXxRInstagram_Reels
+File Name: C:\Downloaded Web Sites\deliverygourmetpha.shop\index.htm
+Content Type: text/html
+
+Uri: https://deliverygourmetpha.shop/css/delivry.css
+File Name: C:\Downloaded Web Sites\deliverygourmetpha.shop\css\delivry.css
+Content Type: text/css
+
+Uri: https://deliverygourmetpha.shop/J1/
+File Name: C:\Downloaded Web Sites\deliverygourmetpha.shop\J1\index.htm
+Content Type: text/html
+
+Uri: https://deliverygourmetpha.shop/J1/css/delivry.css
+File Name: C:\Downloaded Web Sites\deliverygourmetpha.shop\J1\css\delivry.css
+Content Type: text/css
+
+Uri: https://deliverygourmetpha.shop/J1/js/all.js
+File Name: C:\Downloaded Web Sites\deliverygourmetpha.shop\J1\js\all.js
+Content Type: application/x-javascript
+
+Uri: https://deliverygourmetpha.shop/J1/js/deliveryProduto.js
+File Name: C:\Downloaded Web Sites\deliverygourmetpha.shop\J1\js\deliveryProduto.js
+Content Type: application/x-javascript
+
+Uri: https://deliverygourmetpha.shop/J1/js/jquery-mask.js
+File Name: C:\Downloaded Web Sites\deliverygourmetpha.shop\J1\js\jquery-mask.js
+Content Type: application/x-javascript
+
+Uri: https://deliverygourmetpha.shop/J1/js/jquery.js
+File Name: C:\Downloaded Web Sites\deliverygourmetpha.shop\J1\js\jquery.js
+Content Type: application/x-javascript
+
+Uri: https://deliverygourmetpha.shop/J1/js/latest.js
+File Name: C:\Downloaded Web Sites\deliverygourmetpha.shop\J1\js\latest.js
+Content Type: application/x-javascript
+
+Uri: https://deliverygourmetpha.shop/J1/js/latest_1.js
+File Name: C:\Downloaded Web Sites\deliverygourmetpha.shop\J1\js\latest_1.js
+Content Type: application/x-javascript
+
+Uri: https://deliverygourmetpha.shop/J1/js/pixel.js
+File Name: C:\Downloaded Web Sites\deliverygourmetpha.shop\J1\js\pixel.js
+Content Type: application/x-javascript
+
+Uri: https://deliverygourmetpha.shop/J1/js/sweetalert.min.js
+File Name: C:\Downloaded Web Sites\deliverygourmetpha.shop\J1\js\sweetalert.min.js
+Content Type: application/x-javascript
+
+Uri: https://deliverygourmetpha.shop/J10/
+File Name: C:\Downloaded Web Sites\deliverygourmetpha.shop\J10\index.htm
+Content Type: text/html
+
+Uri: https://deliverygourmetpha.shop/J10/css/delivry.css
+File Name: C:\Downloaded Web Sites\deliverygourmetpha.shop\J10\css\delivry.css
+Content Type: text/css
+
+Uri: https://deliverygourmetpha.shop/J10/images/1747968088177-606261183.png
+File Name: C:\Downloaded Web Sites\deliverygourmetpha.shop\J10\images\1747968088177-606261183.png
+Content Type: image/png
+
+Uri: https://deliverygourmetpha.shop/J10/js/all.js
+File Name: C:\Downloaded Web Sites\deliverygourmetpha.shop\J10\js\all.js
+Content Type: application/x-javascript
+
+Uri: https://deliverygourmetpha.shop/J10/js/deliveryProduto.js
+File Name: C:\Downloaded Web Sites\deliverygourmetpha.shop\J10\js\deliveryProduto.js
+Content Type: application/x-javascript
+
+Uri: https://deliverygourmetpha.shop/J10/js/jquery-mask.js
+File Name: C:\Downloaded Web Sites\deliverygourmetpha.shop\J10\js\jquery-mask.js
+Content Type: application/x-javascript
+
+Uri: https://deliverygourmetpha.shop/J10/js/jquery.js
+File Name: C:\Downloaded Web Sites\deliverygourmetpha.shop\J10\js\jquery.js
+Content Type: application/x-javascript
+
+Uri: https://deliverygourmetpha.shop/J10/js/latest.js
+File Name: C:\Downloaded Web Sites\deliverygourmetpha.shop\J10\js\latest.js
+Content Type: application/x-javascript
+
+Uri: https://deliverygourmetpha.shop/J10/js/latest_1.js
+File Name: C:\Downloaded Web Sites\deliverygourmetpha.shop\J10\js\latest_1.js
+Content Type: application/x-javascript
+
+Uri: https://deliverygourmetpha.shop/J10/js/pixel.js
+File Name: C:\Downloaded Web Sites\deliverygourmetpha.shop\J10\js\pixel.js
+Content Type: application/x-javascript
+
+Uri: https://deliverygourmetpha.shop/J10/js/pixel_1.js
+File Name: C:\Downloaded Web Sites\deliverygourmetpha.shop\J10\js\pixel_1.js
+Content Type: application/x-javascript
+
+Uri: https://deliverygourmetpha.shop/J10/js/sweetalert.min.js
+File Name: C:\Downloaded Web Sites\deliverygourmetpha.shop\J10\js\sweetalert.min.js
+Content Type: application/x-javascript
+
+Uri: https://deliverygourmetpha.shop/J16/
+File Name: C:\Downloaded Web Sites\deliverygourmetpha.shop\J16\index.htm
+Content Type: text/html
+
+Uri: https://deliverygourmetpha.shop/J16/css/delivry.css
+File Name: C:\Downloaded Web Sites\deliverygourmetpha.shop\J16\css\delivry.css
+Content Type: text/css
+
+Uri: https://deliverygourmetpha.shop/J16/js/all.js
+File Name: C:\Downloaded Web Sites\deliverygourmetpha.shop\J16\js\all.js
+Content Type: application/x-javascript
+
+Uri: https://deliverygourmetpha.shop/J16/js/deliveryProduto.js
+File Name: C:\Downloaded Web Sites\deliverygourmetpha.shop\J16\js\deliveryProduto.js
+Content Type: application/x-javascript
+
+Uri: https://deliverygourmetpha.shop/J16/js/jquery-mask.js
+File Name: C:\Downloaded Web Sites\deliverygourmetpha.shop\J16\js\jquery-mask.js
+Content Type: application/x-javascript
+
+Uri: https://deliverygourmetpha.shop/J16/js/jquery.js
+File Name: C:\Downloaded Web Sites\deliverygourmetpha.shop\J16\js\jquery.js
+Content Type: application/x-javascript
+
+Uri: https://deliverygourmetpha.shop/J16/js/latest.js
+File Name: C:\Downloaded Web Sites\deliverygourmetpha.shop\J16\js\latest.js
+Content Type: application/x-javascript
+
+Uri: https://deliverygourmetpha.shop/J16/js/latest_1.js
+File Name: C:\Downloaded Web Sites\deliverygourmetpha.shop\J16\js\latest_1.js
+Content Type: application/x-javascript
+
+Uri: https://deliverygourmetpha.shop/J16/js/pixel.js
+File Name: C:\Downloaded Web Sites\deliverygourmetpha.shop\J16\js\pixel.js
+Content Type: application/x-javascript
+
+Uri: https://deliverygourmetpha.shop/J16/js/sweetalert.min.js
+File Name: C:\Downloaded Web Sites\deliverygourmetpha.shop\J16\js\sweetalert.min.js
+Content Type: application/x-javascript
+
+Uri: https://deliverygourmetpha.shop/J2/
+File Name: C:\Downloaded Web Sites\deliverygourmetpha.shop\J2\index.htm
+Content Type: text/html
+
+Uri: https://deliverygourmetpha.shop/J2/css/delivry.css
+File Name: C:\Downloaded Web Sites\deliverygourmetpha.shop\J2\css\delivry.css
+Content Type: text/css
+
+Uri: https://deliverygourmetpha.shop/J2/js/all.js
+File Name: C:\Downloaded Web Sites\deliverygourmetpha.shop\J2\js\all.js
+Content Type: application/x-javascript
+
+Uri: https://deliverygourmetpha.shop/J2/js/deliveryProduto.js
+File Name: C:\Downloaded Web Sites\deliverygourmetpha.shop\J2\js\deliveryProduto.js
+Content Type: application/x-javascript
+
+Uri: https://deliverygourmetpha.shop/J2/js/jquery-mask.js
+File Name: C:\Downloaded Web Sites\deliverygourmetpha.shop\J2\js\jquery-mask.js
+Content Type: application/x-javascript
+
+Uri: https://deliverygourmetpha.shop/J2/js/jquery.js
+File Name: C:\Downloaded Web Sites\deliverygourmetpha.shop\J2\js\jquery.js
+Content Type: application/x-javascript
+
+Uri: https://deliverygourmetpha.shop/J2/js/latest.js
+File Name: C:\Downloaded Web Sites\deliverygourmetpha.shop\J2\js\latest.js
+Content Type: application/x-javascript
+
+Uri: https://deliverygourmetpha.shop/J2/js/latest_1.js
+File Name: C:\Downloaded Web Sites\deliverygourmetpha.shop\J2\js\latest_1.js
+Content Type: application/x-javascript
+
+Uri: https://deliverygourmetpha.shop/J2/js/pixel.js
+File Name: C:\Downloaded Web Sites\deliverygourmetpha.shop\J2\js\pixel.js
+Content Type: application/x-javascript
+
+Uri: https://deliverygourmetpha.shop/J2/js/sweetalert.min.js
+File Name: C:\Downloaded Web Sites\deliverygourmetpha.shop\J2\js\sweetalert.min.js
+Content Type: application/x-javascript
+
+Uri: https://deliverygourmetpha.shop/J3/
+File Name: C:\Downloaded Web Sites\deliverygourmetpha.shop\J3\index.htm
+Content Type: text/html
+
+Uri: https://deliverygourmetpha.shop/J3/css/delivry.css
+File Name: C:\Downloaded Web Sites\deliverygourmetpha.shop\J3\css\delivry.css
+Content Type: text/css
+
+Uri: https://deliverygourmetpha.shop/J3/js/all.js
+File Name: C:\Downloaded Web Sites\deliverygourmetpha.shop\J3\js\all.js
+Content Type: application/x-javascript
+
+Uri: https://deliverygourmetpha.shop/J3/js/deliveryProduto.js
+File Name: C:\Downloaded Web Sites\deliverygourmetpha.shop\J3\js\deliveryProduto.js
+Content Type: application/x-javascript
+
+Uri: https://deliverygourmetpha.shop/J3/js/jquery-mask.js
+File Name: C:\Downloaded Web Sites\deliverygourmetpha.shop\J3\js\jquery-mask.js
+Content Type: application/x-javascript
+
+Uri: https://deliverygourmetpha.shop/J3/js/jquery.js
+File Name: C:\Downloaded Web Sites\deliverygourmetpha.shop\J3\js\jquery.js
+Content Type: application/x-javascript
+
+Uri: https://deliverygourmetpha.shop/J3/js/latest.js
+File Name: C:\Downloaded Web Sites\deliverygourmetpha.shop\J3\js\latest.js
+Content Type: application/x-javascript
+
+Uri: https://deliverygourmetpha.shop/J3/js/latest_1.js
+File Name: C:\Downloaded Web Sites\deliverygourmetpha.shop\J3\js\latest_1.js
+Content Type: application/x-javascript
+
+Uri: https://deliverygourmetpha.shop/J3/js/pixel.js
+File Name: C:\Downloaded Web Sites\deliverygourmetpha.shop\J3\js\pixel.js
+Content Type: application/x-javascript
+
+Uri: https://deliverygourmetpha.shop/J3/js/sweetalert.min.js
+File Name: C:\Downloaded Web Sites\deliverygourmetpha.shop\J3\js\sweetalert.min.js
+Content Type: application/x-javascript
+
+Uri: https://deliverygourmetpha.shop/js/all.js
+File Name: C:\Downloaded Web Sites\deliverygourmetpha.shop\js\all.js
+Content Type: application/x-javascript
+
+Uri: https://deliverygourmetpha.shop/js/delivry.js
+File Name: C:\Downloaded Web Sites\deliverygourmetpha.shop\js\delivry.js
+Content Type: application/x-javascript
+
+Uri: https://deliverygourmetpha.shop/js/jquery.min.js
+File Name: C:\Downloaded Web Sites\deliverygourmetpha.shop\js\jquery.min.js
+Content Type: application/x-javascript
+
+Uri: https://deliverygourmetpha.shop/js/latest.js
+File Name: C:\Downloaded Web Sites\deliverygourmetpha.shop\js\latest.js
+Content Type: application/x-javascript
+
+Uri: https://deliverygourmetpha.shop/js/latest_1.js
+File Name: C:\Downloaded Web Sites\deliverygourmetpha.shop\js\latest_1.js
+Content Type: application/x-javascript
+
+Uri: https://deliverygourmetpha.shop/js/latest_2.js
+File Name: C:\Downloaded Web Sites\deliverygourmetpha.shop\js\latest_2.js
+Content Type: application/x-javascript
+
+Uri: https://deliverygourmetpha.shop/js/pixel.js
+File Name: C:\Downloaded Web Sites\deliverygourmetpha.shop\js\pixel.js
+Content Type: application/x-javascript
+
+Uri: https://deliverygourmetpha.shop/js/sweetalert.min.js
+File Name: C:\Downloaded Web Sites\deliverygourmetpha.shop\js\sweetalert.min.js
+Content Type: application/x-javascript
+
+Uri: https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&amp;display=swap
+File Name: C:\Downloaded Web Sites\deliverygourmetpha.shop\css2
+Content Type: text/css
+
+Uri: https://fonts.googleapis.com/icon?family=Material+Icons
+File Name: C:\Downloaded Web Sites\deliverygourmetpha.shop\icon
+Content Type: text/css
+
+Uri: https://fonts.gstatic.com/s/materialicons/v143/flUhRq6tzZclQEJ-Vdg-IuiaDsNZ.ttf
+File Name: C:\Downloaded Web Sites\deliverygourmetpha.shop\s\materialicons\v143\flUhRq6tzZclQEJ-Vdg-IuiaDsNZ.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/poppins/v23/pxiByp8kv8JHgFVrLEj6V1s.ttf
+File Name: C:\Downloaded Web Sites\deliverygourmetpha.shop\s\poppins\v23\pxiByp8kv8JHgFVrLEj6V1s.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/poppins/v23/pxiByp8kv8JHgFVrLGT9V1s.ttf
+File Name: C:\Downloaded Web Sites\deliverygourmetpha.shop\s\poppins\v23\pxiByp8kv8JHgFVrLGT9V1s.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/poppins/v23/pxiEyp8kv8JHgFVrFJA.ttf
+File Name: C:\Downloaded Web Sites\deliverygourmetpha.shop\s\poppins\v23\pxiEyp8kv8JHgFVrFJA.ttf
+Content Type: font/ttf
+
+Uri: https://s3-sa-east-1.amazonaws.com/deliveryon-uploads/products/pizzaclub/7_5c8456ecdda93.jpg
+File Name: C:\Downloaded Web Sites\deliverygourmetpha.shop\deliveryon-uploads\products\pizzaclub\7_5c8456ecdda93.jpg
+Content Type: image/jpeg
+
+Uri: https://storage.googleapis.com/whitecheckout/cdn/product/3M7PPP/imageProduct/w2dFsFMYTKtdVYLJYRd4w95ooBPlgty7T3njefLc.png
+File Name: C:\Downloaded Web Sites\deliverygourmetpha.shop\whitecheckout\cdn\product\3M7PPP\imageProduct\w2dFsFMYTKtdVYLJYRd4w95ooBPlgty7T3njefLc.png
+Content Type: image/png
+
+Uri: https://storage.googleapis.com/whitecheckout/cdn/product/3M7PPQ/imageProduct/H7eZoNqx6IteKnIAIal3VHDcOxRjPWzlhupJtidZ.png
+File Name: C:\Downloaded Web Sites\deliverygourmetpha.shop\whitecheckout\cdn\product\3M7PPQ\imageProduct\H7eZoNqx6IteKnIAIal3VHDcOxRjPWzlhupJtidZ.png
+Content Type: image/png
+
+Uri: https://storage.googleapis.com/whitecheckout/cdn/product/3M7PPR/imageProduct/13a1gMuXWpZ3VZJYeLxxyoSIAWd0iC3dXAzuexjr.png
+File Name: C:\Downloaded Web Sites\deliverygourmetpha.shop\whitecheckout\cdn\product\3M7PPR\imageProduct\13a1gMuXWpZ3VZJYeLxxyoSIAWd0iC3dXAzuexjr.png
+Content Type: image/png
+
+Uri: https://storage.googleapis.com/whitecheckout/cdn/product/3M7PPS/imageProduct/XwM3Q6RaJv1PBn3KoEszIcUFmAQJFqXqyPDx4WA0.png
+File Name: C:\Downloaded Web Sites\deliverygourmetpha.shop\whitecheckout\cdn\product\3M7PPS\imageProduct\XwM3Q6RaJv1PBn3KoEszIcUFmAQJFqXqyPDx4WA0.png
+Content Type: image/png
+
+Uri: https://storage.googleapis.com/whitecheckout/cdn/product/3M7PQ0/imageProduct/UpjjLZdfim4YURiWbP9LN5EIWB8fbD6b8NfYR35q.png
+File Name: C:\Downloaded Web Sites\deliverygourmetpha.shop\whitecheckout\cdn\product\3M7PQ0\imageProduct\UpjjLZdfim4YURiWbP9LN5EIWB8fbD6b8NfYR35q.png
+Content Type: image/png
+
+Uri: https://storage.googleapis.com/whitecheckout/cdn/product/3M8OGG/imageProduct/PopSn9HZ8LztIJwrtzHsG6Ez1LKNshZxx0i1Xopq.png
+File Name: C:\Downloaded Web Sites\deliverygourmetpha.shop\whitecheckout\cdn\product\3M8OGG\imageProduct\PopSn9HZ8LztIJwrtzHsG6Ez1LKNshZxx0i1Xopq.png
+Content Type: image/png
+
+Uri: https://storage.googleapis.com/whitecheckout/cdn/product/3MA8MI/imageProduct/KIrsWddjaoXILM3ah2EVtqF4YOtz325ZzhgMpVpk.jpg
+File Name: C:\Downloaded Web Sites\deliverygourmetpha.shop\whitecheckout\cdn\product\3MA8MI\imageProduct\KIrsWddjaoXILM3ah2EVtqF4YOtz325ZzhgMpVpk.jpg
+Content Type: image/jpeg
+
+Uri: https://storage.googleapis.com/whitecheckout/cdn/product/3MA8MJ/imageProduct/qY8QKL8kCKsuIQ8IkIuZueFpBhotf9S01kOYpOHi.png
+File Name: C:\Downloaded Web Sites\deliverygourmetpha.shop\whitecheckout\cdn\product\3MA8MJ\imageProduct\qY8QKL8kCKsuIQ8IkIuZueFpBhotf9S01kOYpOHi.png
+Content Type: image/png
+
+Uri: https://storage.googleapis.com/whitecheckout/cdn/product/3MA8MK/imageProduct/ABtWZiwJPyzvYMPLSKglvm0fiBufit6qe32h0Jz0.png
+File Name: C:\Downloaded Web Sites\deliverygourmetpha.shop\whitecheckout\cdn\product\3MA8MK\imageProduct\ABtWZiwJPyzvYMPLSKglvm0fiBufit6qe32h0Jz0.png
+Content Type: image/png
+
+Uri: https://www.facebook.com/tr?id=1463438868421802&ev=PageView&noscript=1
+File Name: C:\Downloaded Web Sites\deliverygourmetpha.shop\tr
+Content Type: text/plain
+
