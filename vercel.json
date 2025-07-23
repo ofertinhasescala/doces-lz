@@ -1,29 +1,31 @@
 {
   "version": 2,
-  "name": "delivery-gourmet",
+  "public": true,
+  "cleanUrls": false,
+  "trailingSlash": false,
   "builds": [
-    { "src": "**/*.html", "use": "@vercel/static" },
-    { "src": "**/*.htm", "use": "@vercel/static" },
-    { "src": "**/*.css", "use": "@vercel/static" },
-    { "src": "**/*.js", "use": "@vercel/static" },
-    { "src": "**/*.{jpg,jpeg,png,gif,svg,ico}", "use": "@vercel/static" },
-    { "src": "**/*.{ttf,woff,woff2,eot}", "use": "@vercel/static" }
+    { "src": "**/*", "use": "@vercel/static" }
   ],
-  "rewrites": [
-    { "source": "/", "destination": "/index.htm" },
-    { "source": "/loja/:path*/finalizar", "destination": "/index.htm" },
-    { "source": "/delivery/:path*", "destination": "/index.htm" },
-    { "source": "/(.*)", "destination": "/$1" }
+  "routes": [
+    { "handle": "filesystem" },
+    { "src": "/loja/([^/]+)/finalizar", "dest": "/index.htm" },
+    { "src": "/loja/([^/]+)", "dest": "/index.htm" },
+    { "src": "/delivery/(.*)", "dest": "/index.htm" },
+    { "src": "/(.*)", "dest": "/$1" }
   ],
   "headers": [
     {
       "source": "/(.*)",
       "headers": [
-        { "key": "Cache-Control", "value": "public, max-age=0, must-revalidate" },
-        { "key": "X-Frame-Options", "value": "DENY" },
-        { "key": "X-Content-Type-Options", "value": "nosniff" },
-        { "key": "X-XSS-Protection", "value": "1; mode=block" },
-        { "key": "Access-Control-Allow-Origin", "value": "*" }
+        { "key": "Access-Control-Allow-Origin", "value": "*" },
+        { "key": "Access-Control-Allow-Methods", "value": "GET, POST, OPTIONS" },
+        { "key": "Access-Control-Allow-Headers", "value": "X-Requested-With, Content-Type, Accept" }
+      ]
+    },
+    {
+      "source": "/(.*)\\.(js|css|json|html|htm|xml|txt|svg|jpg|jpeg|png|gif|ico|ttf|woff|woff2)",
+      "headers": [
+        { "key": "Cache-Control", "value": "public, max-age=86400" }
       ]
     }
   ]
