@@ -1,0 +1,12 @@
+# Redirecionamentos para o Netlify e outros serviços de hospedagem estática
+# Rota principal
+/ /index.htm 200
+
+# Rotas de checkout
+/loja/*/finalizar /index.htm 200
+
+# Rotas de API
+/delivery/* /index.htm 200
+
+# Fallback para rotas não encontradas
+/* /:splat 200 

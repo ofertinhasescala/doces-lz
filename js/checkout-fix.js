@@ -10,6 +10,8 @@ document.addEventListener('DOMContentLoaded', function() {
                       window.location.pathname.includes('/J16/');
 
     if (isSubPage) {
+        console.log('Checkout path fix initialized for subpages');
+        
         // Corrigir o evento de clique no botão de finalizar
         $(document).on('click', 'button#btFinalizar', function(e) {
             e.preventDefault();
@@ -17,13 +19,15 @@ document.addEventListener('DOMContentLoaded', function() {
             verificarConexaoInternet().then(status => {
                 if (status === 'conectado') {
                     const urlLoja = $('body').data('urlloja');
-                    // Corrigir o redirecionamento para usar o caminho relativo correto
-                    const currentPath = window.location.pathname;
-                    const baseUrl = currentPath.substring(0, currentPath.lastIndexOf('/'));
-                    const parentUrl = baseUrl.substring(0, baseUrl.lastIndexOf('/'));
                     
-                    // Redirecionar para a página de finalização
-                    window.location.href = parentUrl + "/loja/" + urlLoja + "/finalizar";
+                    // Determinar o caminho base correto independente do ambiente
+                    const currentPath = window.location.pathname;
+                    const pathParts = currentPath.split('/');
+                    const folderName = pathParts[pathParts.length - 2]; // Ex: J1, J2, etc.
+                    
+                    // Construir URL absoluta para evitar problemas de caminho relativo
+                    const baseUrl = window.location.origin;
+                    window.location.href = `${baseUrl}/loja/${urlLoja}/finalizar`;
                 } else {
                     $('#modalCarregando').hide();
                     $("#modal button").addClass('confirmar');
@@ -33,18 +37,23 @@ document.addEventListener('DOMContentLoaded', function() {
             });
         });
 
-        // Corrigir a função readJsonFile para obter o caminho correto
+        // Sobrescrever a função readJsonFile para usar caminhos absolutos
         window.originalReadJsonFile = window.readJsonFile;
         window.readJsonFile = function(file, callback) {
-            // Ajustar o caminho para apontar para o diretório superior
-            const correctedFile = file.replace("../../../delivery/json/", "../../delivery/json/");
+            // Usar caminho absoluto baseado na origem
+            const baseUrl = window.location.origin;
+            const correctedFile = file.replace("../../../delivery/json/", baseUrl + "/delivery/json/");
             
             var rawFile = new XMLHttpRequest();
             rawFile.overrideMimeType("application/json");
             rawFile.open("GET", correctedFile, true);
             rawFile.onreadystatechange = function() {
-                if (rawFile.readyState === 4 && rawFile.status == "200") {
-                    callback(rawFile.responseText);
+                if (rawFile.readyState === 4) {
+                    if (rawFile.status == "200") {
+                        callback(rawFile.responseText);
+                    } else {
+                        console.error('Erro ao carregar arquivo JSON:', correctedFile);
+                    }
                 }
             }
             rawFile.send(null);
@@ -56,7 +65,8 @@ document.addEventListener('DOMContentLoaded', function() {
             if (typeof settings === 'object') {
                 // Corrigir URLs relativas em requisições AJAX
                 if (settings.url && settings.url.startsWith('delivery/')) {
-                    settings.url = '../../' + settings.url;
+                    const baseUrl = window.location.origin;
+                    settings.url = baseUrl + '/' + settings.url;
                 }
             }
             return originalAjax.apply(this, arguments);
@@ -67,18 +77,38 @@ document.addEventListener('DOMContentLoaded', function() {
         window.inicio = function() {
             const urlLoja = $('body').data('urlloja');
             
-            // Determinar o caminho base correto
-            const currentPath = window.location.pathname;
-            const baseUrl = currentPath.substring(0, currentPath.lastIndexOf('/'));
-            const parentUrl = baseUrl.substring(0, baseUrl.lastIndexOf('/'));
+            // Usar caminho absoluto baseado na origem
+            const baseUrl = window.location.origin;
             
-            history.pushState({ page: 'inicio' }, "", parentUrl + "/loja/" + urlLoja);
+            history.pushState({ page: 'inicio' }, "", baseUrl + "/loja/" + urlLoja);
             
             $("#produto").hide();
             $('body').css('overflow-y', 'auto');
             atualizar();
         };
 
-        console.log('Checkout path fix initialized for subpages');
+        // Corrigir a função verificarLojaAberta para usar caminhos absolutos
+        window.originalVerificarLojaAberta = window.verificarLojaAberta;
+        window.verificarLojaAberta = function() {
+            let lojaAberta = 'n';
+            let idUsuario = $('body').data('idusuario');
+            
+            const baseUrl = window.location.origin;
+            
+            $.ajax({
+                type: "post",
+                url: baseUrl + "/delivery/verificarLojaAberta.php",
+                data: "idUsuario=" + idUsuario,
+                async: false,
+                cache: false,
+                datatype: "text",
+                beforeSend: function () { },
+                success: function (data) {
+                    lojaAberta = data;
+                },
+                error: function () { }
+            });
+            return lojaAberta;
+        };
     }
 }); 

@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "routes": [
+    { "src": "^/$", "dest": "/index.htm" },
+    { "src": "^/loja/([^/]+)/finalizar/?$", "dest": "/index.htm" },
+    { "src": "^/delivery/.*$", "dest": "/index.htm" },
+    { "handle": "filesystem" },
+    { "src": "/(.*)", "status": 404, "dest": "/404.html" }
+  ]
+} 

@@ -1,0 +1,30 @@
+[build]
+  publish = "/"
+  command = "echo 'No build required'"
+
+[[redirects]]
+  from = "/"
+  to = "/index.htm"
+  status = 200
+
+[[redirects]]
+  from = "/loja/*/finalizar"
+  to = "/index.htm"
+  status = 200
+
+[[redirects]]
+  from = "/delivery/*"
+  to = "/index.htm"
+  status = 200
+
+[[redirects]]
+  from = "/*"
+  to = "/:splat"
+  status = 200
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    Access-Control-Allow-Origin = "*"
+    X-Frame-Options = "DENY"
+    X-XSS-Protection = "1; mode=block" 
