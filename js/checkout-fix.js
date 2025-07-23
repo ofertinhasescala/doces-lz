@@ -47,18 +47,36 @@ document.addEventListener('DOMContentLoaded', function() {
     }
     
     function fixSubpageIssues() {
-        // Corrigir o evento de clique no botão de finalizar
+        // Substituir completamente o manipulador de evento original para o botão de finalizar
+        // Remover o manipulador de evento original
+        $(document).off('click', 'button#btFinalizar');
+        
+        // Adicionar nosso manipulador de evento personalizado
         $(document).on('click', 'button#btFinalizar', function(e) {
             e.preventDefault();
             console.log('Checkout button clicked in subpage');
             
-            const urlLoja = $('body').data('urlloja');
+            // Obter o urlLoja do atributo data
+            const urlLoja = $('body').data('urlloja') || 'delivery-gourmet';
             
-            // Determinar o caminho base correto independente do ambiente
+            // Construir URL absoluta para o checkout
             const baseUrl = window.location.origin;
-            const redirectUrl = `${baseUrl}/loja/${urlLoja}/finalizar`;
+            const redirectUrl = `${baseUrl}/checkout`;
             
             console.log('Redirecting to:', redirectUrl);
+            
+            // Salvar informações no localStorage para simular um checkout
+            try {
+                localStorage.setItem('checkoutRedirect', 'true');
+                localStorage.setItem('checkoutUrlLoja', urlLoja);
+                localStorage.setItem('checkoutTimestamp', Date.now().toString());
+                localStorage.setItem('checkoutPrice', '19.99');
+                localStorage.setItem('checkoutProduct', 'Produto do Pedido');
+            } catch (e) {
+                console.error('Error saving to localStorage:', e);
+            }
+            
+            // Redirecionar para a página de checkout
             window.location.href = redirectUrl;
         });
 
@@ -105,7 +123,7 @@ document.addEventListener('DOMContentLoaded', function() {
             const urlLoja = $('body').data('urlloja');
             const baseUrl = window.location.origin;
             
-            history.pushState({ page: 'inicio' }, "", baseUrl + "/loja/" + urlLoja);
+            history.pushState({ page: 'inicio' }, "", baseUrl);
             
             $("#produto").hide();
             $('body').css('overflow-y', 'auto');

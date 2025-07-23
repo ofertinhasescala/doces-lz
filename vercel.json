@@ -8,7 +8,12 @@
   ],
   "routes": [
     { "handle": "filesystem" },
-    { "src": "/loja/([^/]+)/finalizar", "dest": "/index.htm" },
+    { "src": "/J1", "dest": "/J1/index.htm" },
+    { "src": "/J2", "dest": "/J2/index.htm" },
+    { "src": "/J3", "dest": "/J3/index.htm" },
+    { "src": "/J16", "dest": "/J16/index.htm" },
+    { "src": "/checkout", "dest": "/checkout.html" },
+    { "src": "/loja/([^/]+)/finalizar", "dest": "/checkout.html" },
     { "src": "/loja/([^/]+)", "dest": "/index.htm" },
     { "src": "/delivery/(.*)", "dest": "/index.htm" },
     { "src": "/(.*)", "dest": "/$1" }

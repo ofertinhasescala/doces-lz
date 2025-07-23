@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout - Delivery Gourmet</title>
+    <style>
+        body {
+            font-family: 'Poppins', Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+            color: #343a40;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        h1 {
+            color: #34543b;
+            font-size: 28px;
+            margin-bottom: 10px;
+        }
+        .checkout-container {
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            padding: 20px;
+        }
+        .product {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 0;
+            border-bottom: 1px solid #eee;
+        }
+        .product-info {
+            flex: 1;
+        }
+        .product-title {
+            font-weight: 600;
+            margin-bottom: 5px;
+        }
+        .product-desc {
+            color: #6c757d;
+            font-size: 14px;
+        }
+        .product-price {
+            font-weight: 600;
+            font-size: 18px;
+            color: #34543b;
+        }
+        .summary {
+            margin-top: 20px;
+            padding-top: 20px;
+            border-top: 2px solid #eee;
+        }
+        .summary-row {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 10px;
+        }
+        .summary-total {
+            font-size: 20px;
+            font-weight: 700;
+            margin-top: 10px;
+            padding-top: 10px;
+            border-top: 1px solid #eee;
+        }
+        .btn {
+            display: block;
+            width: 100%;
+            padding: 15px;
+            margin-top: 20px;
+            background-color: #34543b;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            font-size: 16px;
+            font-weight: 600;
+            cursor: pointer;
+            text-align: center;
+            text-decoration: none;
+        }
+        .btn:hover {
+            background-color: #2a4330;
+        }
+        .back-link {
+            display: block;
+            text-align: center;
+            margin-top: 20px;
+            color: #6c757d;
+            text-decoration: none;
+        }
+        .back-link:hover {
+            color: #343a40;
+        }
+        .form-group {
+            margin-bottom: 20px;
+        }
+        .form-group label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: 600;
+        }
+        .form-control {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            font-size: 16px;
+        }
+        .form-section {
+            margin-top: 30px;
+        }
+        .form-section h2 {
+            font-size: 20px;
+            margin-bottom: 15px;
+            color: #34543b;
+        }
+        .radio-group {
+            margin-bottom: 15px;
+        }
+        .radio-group label {
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+            cursor: pointer;
+        }
+        .radio-group input {
+            margin-right: 10px;
+        }
+        .success-message {
+            display: none;
+            background-color: #d4edda;
+            color: #155724;
+            padding: 15px;
+            border-radius: 4px;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+    </style>
+    <script>
+        // Script para simular o processo de checkout
+        document.addEventListener('DOMContentLoaded', function() {
+            // Obter dados do localStorage
+            const productName = localStorage.getItem('checkoutProduct') || 'Produto do Pedido';
+            const productPrice = localStorage.getItem('checkoutPrice') || '19.99';
+            
+            // Formatar o preço
+            const formattedPrice = 'R$ ' + parseFloat(productPrice).toFixed(2).replace('.', ',');
+            
+            // Atualizar os elementos da página
+            document.querySelector('.product-title').textContent = productName;
+            document.querySelectorAll('.product-price').forEach(el => {
+                el.textContent = formattedPrice;
+            });
+            document.querySelector('.summary-row:first-child div:last-child').textContent = formattedPrice;
+            document.querySelector('.summary-total div:last-child').textContent = formattedPrice;
+            
+            // Adicionar evento ao botão de finalizar pedido
+            document.getElementById('finalizar-pedido').addEventListener('click', function(e) {
+                e.preventDefault();
+                
+                // Validar formulário
+                const nome = document.getElementById('nome').value;
+                const telefone = document.getElementById('telefone').value;
+                
+                if (!nome || !telefone) {
+                    alert('Por favor, preencha seu nome e telefone para continuar.');
+                    return;
+                }
+                
+                // Mostrar mensagem de sucesso
+                document.querySelector('.success-message').style.display = 'block';
+                document.querySelector('form').style.display = 'none';
+                
+                // Limpar localStorage
+                localStorage.removeItem('checkoutRedirect');
+                localStorage.removeItem('checkoutUrlLoja');
+                localStorage.removeItem('checkoutTimestamp');
+                localStorage.removeItem('checkoutPrice');
+                localStorage.removeItem('checkoutProduct');
+                
+                // Redirecionar após 3 segundos
+                setTimeout(function() {
+                    window.location.href = '/';
+                }, 3000);
+            });
+        });
+    </script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Finalizar Pedido</h1>
+            <p>Confira os itens do seu pedido e complete a compra</p>
+        </header>
+        
+        <div class="success-message">
+            <h2>Pedido Realizado com Sucesso!</h2>
+            <p>Obrigado por sua compra. Você será redirecionado para a página principal em instantes...</p>
+        </div>
+        
+        <form>
+            <div class="checkout-container">
+                <div class="product">
+                    <div class="product-info">
+                        <div class="product-title">Produto do Pedido</div>
+                        <div class="product-desc">Descrição do produto</div>
+                    </div>
+                    <div class="product-price">R$ 19,99</div>
+                </div>
+                
+                <div class="summary">
+                    <div class="summary-row">
+                        <div>Subtotal</div>
+                        <div>R$ 19,99</div>
+                    </div>
+                    <div class="summary-row">
+                        <div>Taxa de entrega</div>
+                        <div>R$ 0,00</div>
+                    </div>
+                    <div class="summary-row summary-total">
+                        <div>Total</div>
+                        <div>R$ 19,99</div>
+                    </div>
+                </div>
+                
+                <div class="form-section">
+                    <h2>Informações de Contato</h2>
+                    <div class="form-group">
+                        <label for="nome">Nome</label>
+                        <input type="text" id="nome" class="form-control" placeholder="Seu nome completo">
+                    </div>
+                    <div class="form-group">
+                        <label for="telefone">Telefone</label>
+                        <input type="text" id="telefone" class="form-control" placeholder="(00) 00000-0000">
+                    </div>
+                </div>
+                
+                <div class="form-section">
+                    <h2>Forma de Pagamento</h2>
+                    <div class="radio-group">
+                        <label>
+                            <input type="radio" name="pagamento" value="dinheiro" checked>
+                            Dinheiro
+                        </label>
+                        <label>
+                            <input type="radio" name="pagamento" value="cartao">
+                            Cartão de Crédito/Débito
+                        </label>
+                        <label>
+                            <input type="radio" name="pagamento" value="pix">
+                            PIX
+                        </label>
+                    </div>
+                </div>
+                
+                <button type="submit" id="finalizar-pedido" class="btn">FINALIZAR PEDIDO</button>
+            </div>
+        </form>
+        
+        <a href="/" class="back-link">Voltar para a página principal</a>
+    </div>
+</body>
+</html> 
